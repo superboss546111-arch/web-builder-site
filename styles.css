@@ -172,7 +172,7 @@ img { max-width: 100%; display: block; }
 .template-card p { padding: 0 20px 16px; font-size: 0.85rem; color: #64748b; }
 
 /* ===== Pricing ===== */
-.pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; margin-bottom: 48px; align-items: start; }
+.pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-bottom: 48px; align-items: start; }
 .pricing-card {
   background: rgba(26, 26, 46, 0.6);
   border: 1px solid rgba(148, 163, 184, 0.08);
@@ -331,6 +331,52 @@ img { max-width: 100%; display: block; }
 .coming-soon { min-height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 40px 24px; }
 .coming-soon h1 { font-size: 2.5rem; margin-bottom: 16px; }
 .coming-soon p { font-size: 1.1rem; color: #64748b; max-width: 500px; margin: 0 auto 32px; }
+
+/* ===== Hero Background ===== */
+.hero-bg {
+  position: absolute; inset: 0; z-index: 0;
+  background:
+    url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=70') center/cover no-repeat;
+  opacity: 0.08;
+}
+.hero { position: relative; overflow: hidden; }
+.hero-inner { position: relative; z-index: 1; }
+
+/* ===== Trust Bar ===== */
+.trust-bar {
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.06);
+  text-align: center;
+}
+.trust-label { font-size: 0.85rem; color: #475569; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px; }
+.trust-logos {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 24px;
+}
+.trust-logos span {
+  background: rgba(26, 26, 46, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.08);
+  padding: 10px 20px; border-radius: 50px;
+  font-size: 0.88rem; color: #94a3b8; font-weight: 500;
+  transition: all .3s;
+}
+.trust-logos span:hover { border-color: #7c3aed; color: #7c3aed; }
+
+/* ===== Portfolio Grid ===== */
+.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
+.portfolio-item {
+  height: 260px; border-radius: 16px; overflow: hidden;
+  position: relative; transition: transform .4s;
+}
+.portfolio-item:hover { transform: scale(1.02); }
+.portfolio-info {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 24px; color: #fff;
+}
+.portfolio-info h3 { font-size: 1.2rem; margin-bottom: 4px; }
+.portfolio-info p { font-size: 0.88rem; opacity: 0.8; }
+
+/* ===== Section-alt for dark theme ===== */
+.section-alt { background: rgba(124, 58, 237, 0.02); }
 
 /* ===== Gallery & Team ===== */
 .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
