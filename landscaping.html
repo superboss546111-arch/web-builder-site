@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landscape & Lawn Template Demo | BuildMySite Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .sub-header { background: #1a1a2e; padding: 12px 0; }
+    .sub-header-inner { display: flex; align-items: center; justify-content: space-between; }
+    .back-btn { color: #fff; font-size: 0.9rem; display: flex; align-items: center; gap: 6px; transition: color .2s; }
+    .back-btn:hover { color: #6c63ff; }
+    .demo-badge { background: #6c63ff; color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+    .navbar { display: none; }
+    .hero { padding: 60px 0 50px; }
+  </style>
+</head>
+<body>
+  <div class="sub-header">
+    <div class="container sub-header-inner">
+      <a href="index.html" class="back-btn">&#8592; Back to Templates</a>
+      <span class="demo-badge">&#9651; LIVE DEMO</span>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">&#127793; GreenScape Pro</a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#seasonal">Seasonal</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+13105550188" class="btn btn-phone">&#9742; (310) 555-0188</a>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="container hero-inner">
+      <h1>Transform Your Yard<br><span class="accent">Into Paradise</span></h1>
+      <p>Professional landscape design, installation, and maintenance for residential and commercial properties in LA.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Free Estimate</a>
+        <a href="#gallery" class="btn btn-outline">View Our Work</a>
+      </div>
+    </div>
+  </header>
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card"><div class="service-icon">&#127794;</div><h3>Lawn Maintenance</h3><p>Weekly mowing, edging, trimming from $50/visit</p></div>
+        <div class="service-card"><div class="service-icon">&#127793;</div><h3>Landscape Design</h3><p>Full design & installation. Consultation free.</p></div>
+        <div class="service-card"><div class="service-icon">&#128167;</div><h3>Irrigation Systems</h3><p>Installation, repair, smart controllers</p></div>
+        <div class="service-card"><div class="service-icon">&#127796;</div><h3>Tree & Shrub Care</h3><p>Pruning, removal, disease treatment</p></div>
+        <div class="service-card"><div class="service-icon">&#127963;</div><h3>Hardscaping</h3><p>Patios, walkways, retaining walls, fire pits</p></div>
+        <div class="service-card"><div class="service-icon">&#127799;</div><h3>Outdoor Lighting</h3><p>LED landscape lighting, solar options</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Before & After</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item" style="background:linear-gradient(135deg,#4caf50,#1b5e20);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#8bc34a,#33691e);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#66bb6a,#2e7d32);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#aed581,#558b2f);">&#128247;</div>
+      </div>
+    </div>
+  </section>
+  <section id="seasonal" class="section">
+    <div class="container">
+      <h2 class="section-title">Seasonal Packages</h2>
+      <div class="services-grid" style="max-width:800px;margin:0 auto;">
+        <div class="service-card"><div class="service-icon">&#127807;</div><h3>Spring Cleanup</h3><p>Debris removal, mulch, fertilizer, hedge trim</p></div>
+        <div class="service-card"><div class="service-icon">&#127776;</div><h3>Summer Maintenance</h3><p>Weekly mow, irrigation check, weed control</p></div>
+        <div class="service-card"><div class="service-icon">&#127777;</div><h3>Fall Prep</h3><p>Leaf removal, aeration, winterization</p></div>
+        <div class="service-card"><div class="service-icon">&#10052;</div><h3>Winter Care</h3><p>Holiday lighting, storm cleanup, equipment storage</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section section-cta">
+    <div class="container">
+      <h2 class="section-title">Get Your Free Estimate</h2>
+      <p class="cta-subtitle">Call (310) 555-0188 or fill out the form</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item"><strong>&#128205;</strong><p>Serving all of Los Angeles County</p></div>
+          <div class="contact-item"><strong>&#128222;</strong><p><a href="tel:+13105550188">(310) 555-0188</a></p></div>
+          <div class="contact-item"><strong>&#128337;</strong><p>Mon-Sat: 7AM-6PM</p></div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name *" required>
+          <input type="tel" placeholder="Phone *" required>
+          <select><option value="">Service Needed</option><option>Lawn Maintenance</option><option>Landscape Design</option><option>Irrigation</option><option>Tree Care</option><option>Hardscaping</option><option>Seasonal Package</option></select>
+          <textarea rows="3" placeholder="Property size & what you need..."></textarea>
+          <button type="submit" class="btn btn-white btn-full">Request Estimate</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col"><h4>GreenScape Pro</h4><p>LA's trusted landscapers since 2012.</p></div>
+        <div class="footer-col"><h4>Want a site like this?</h4>
+          <p style="margin-bottom:8px;"><a href="mailto:Aidan.R032@outlook.com" style="color:#6c63ff;">&#9993;&#65039; Aidan.R032@outlook.com</a></p>
+          <p><a href="https://wa.me/8613085000345" target="_blank" style="color:#6c63ff;">&#128172; WhatsApp: +86 130 8500 0345</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 GreenScape Pro. Demo template by BuildMySite Pro.</p></div>
+    </div>
+  </footer>
+</body>
+</html>

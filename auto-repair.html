@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Repair Template Demo | BuildMySite Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .sub-header { background: #1a1a2e; padding: 12px 0; }
+    .sub-header-inner { display: flex; align-items: center; justify-content: space-between; }
+    .back-btn { color: #fff; font-size: 0.9rem; display: flex; align-items: center; gap: 6px; transition: color .2s; }
+    .back-btn:hover { color: #6c63ff; }
+    .demo-badge { background: #6c63ff; color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+    .navbar { display: none; }
+    .hero { padding: 60px 0 50px; }
+  </style>
+</head>
+<body>
+
+  <div class="sub-header">
+    <div class="container sub-header-inner">
+      <a href="index.html" class="back-btn">&#8592; Back to Templates</a>
+      <span class="demo-badge">&#9651; LIVE DEMO</span>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">&#9881; QuickFix Auto</a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+13105550188" class="btn btn-phone">&#9742; (310) 555-0188</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <h1>Honest Auto Repair<br><span class="accent">Since 2005</span></h1>
+      <p>Your neighborhood mechanic. No upselling, no surprises &mdash; just quality repairs at fair prices.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Book Service</a>
+        <a href="tel:+13105550188" class="btn btn-outline">Call Now</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">What We Fix</h2>
+      <div class="services-grid">
+        <div class="service-card"><div class="service-icon">&#128269;</div><h3>Engine Diagnostics</h3><p>Check engine light? We find the problem fast.</p></div>
+        <div class="service-card"><div class="service-icon">&#128164;</div><h3>Brake Service</h3><p>Pads, rotors, calipers & fluid.</p></div>
+        <div class="service-card"><div class="service-icon">&#9749;</div><h3>Oil Changes</h3><p>Conventional & synthetic available.</p></div>
+        <div class="service-card"><div class="service-icon">&#128230;</div><h3>Transmission</h3><p>Repair and rebuild services.</p></div>
+        <div class="service-card"><div class="service-icon">&#128267;</div><h3>A/C & Heating</h3><p>Stay comfortable all year.</p></div>
+        <div class="service-card"><div class="service-icon">&#128736;</div><h3>Tire Service</h3><p>Mount, balance & rotation.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section section-alt">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2 class="section-title" style="text-align:left">Why Choose Us?</h2>
+        <p>QuickFix Auto has been serving the LA community for nearly 20 years. Our ASE-certified technicians treat every car like their own.</p>
+        <ul class="about-list">
+          <li>&#10003; ASE Certified Technicians</li>
+          <li>&#10003; 12-Month / 12,000 Mile Warranty</li>
+          <li>&#10003; Free Estimates on All Repairs</li>
+          <li>&#10003; Comfortable Waiting Room</li>
+        </ul>
+      </div>
+      <div class="about-image"><div class="placeholder-img"><span>&#128663;</span><p>Shop Photo Here</p></div></div>
+    </div>
+  </section>
+
+  <section id="reviews" class="section">
+    <div class="container">
+      <h2 class="section-title">Customer Reviews</h2>
+      <div class="reviews-grid">
+        <div class="review-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Finally a mechanic I trust. Fair prices and great work.&rdquo;</p><div class="review-author">&mdash; Sarah M.</div></div>
+        <div class="review-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Fixed my brakes same day. Will come back.&rdquo;</p><div class="review-author">&mdash; James R.</div></div>
+        <div class="review-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Honest pricing. Other shops wanted double.&rdquo;</p><div class="review-author">&mdash; David L.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-cta">
+    <div class="container">
+      <h2 class="section-title">Book Your Service</h2>
+      <p class="cta-subtitle">Call (310) 555-0188 or fill out the form</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item"><strong>&#128205;</strong><p>890 Venice Blvd, Los Angeles, CA 90015</p></div>
+          <div class="contact-item"><strong>&#128222;</strong><p><a href="tel:+13105550188">(310) 555-0188</a></p></div>
+          <div class="contact-item"><strong>&#128337;</strong><p>Mon-Fri: 8AM-6PM | Sat: 9AM-4PM</p></div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name *" required>
+          <input type="tel" placeholder="Phone *" required>
+          <input type="text" placeholder="Car Make & Model">
+          <textarea rows="3" placeholder="Describe the issue..."></textarea>
+          <button type="submit" class="btn btn-white btn-full">Request Appointment</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col"><h4>QuickFix Auto Repair</h4><p>LA's trusted mechanic since 2005.</p></div>
+        <div class="footer-col"><h4>Want a site like this?</h4>
+          <p style="margin-bottom:8px;"><a href="mailto:Aidan.R032@outlook.com" style="color:#6c63ff;">&#9993;&#65039; Aidan.R032@outlook.com</a></p>
+          <p><a href="https://wa.me/8613085000345" target="_blank" style="color:#6c63ff;">&#128172; WhatsApp: +86 130 8500 0345</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 QuickFix Auto. Demo template by BuildMySite Pro.</p></div>
+    </div>
+  </footer>
+
+</body>
+</html>

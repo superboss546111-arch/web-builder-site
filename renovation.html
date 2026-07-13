@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renovation Template Demo | BuildMySite Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .sub-header { background: #1a1a2e; padding: 12px 0; }
+    .sub-header-inner { display: flex; align-items: center; justify-content: space-between; }
+    .back-btn { color: #fff; font-size: 0.9rem; display: flex; align-items: center; gap: 6px; transition: color .2s; }
+    .back-btn:hover { color: #6c63ff; }
+    .demo-badge { background: #6c63ff; color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+    .navbar { display: none; }
+    .hero { padding: 60px 0 50px; }
+  </style>
+</head>
+<body>
+
+  <div class="sub-header">
+    <div class="container sub-header-inner">
+      <a href="index.html" class="back-btn">&#8592; Back to Templates</a>
+      <span class="demo-badge">&#9651; LIVE DEMO</span>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">&#127963; Summit Remodeling</a>
+      <ul class="nav-links">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+13105550155" class="btn btn-phone">&#9742; (310) 555-0155</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <h1>Build Your Dream<br><span class="accent">Home</span></h1>
+      <p>Full-service home renovation in Los Angeles. Kitchens, bathrooms, additions & more. Licensed, bonded & insured.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Free Estimate</a>
+        <a href="#portfolio" class="btn btn-outline">View Our Work</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Recent Projects</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item" style="background:linear-gradient(135deg,#795548,#3e2723);">&#127963;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#607d8b,#37474f);">&#127963;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#8d6e63,#4e342e);">&#127963;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#a1887f,#4e342e);">&#127963;</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <div class="services-grid">
+        <div class="service-card"><div class="service-icon">&#127859;</div><h3>Kitchen Remodel</h3><p>From $15,000 | Cabinets, countertops, appliances</p></div>
+        <div class="service-card"><div class="service-icon">&#128700;</div><h3>Bathroom Remodel</h3><><p>From $8,000 | Tile, fixtures, vanities</p></div>
+        <div class="service-card"><div class="service-icon">&#127963;</div><h3>Whole House</h3><p>Complete renovation from floor to roof</p></div>
+        <div class="service-card"><div class="service-icon">&#127970;</div><h3>Room Addition</h3><p>Expand your living space</p></div>
+        <div class="service-card"><div class="service-icon">&#128195;</div><h3>Deck & Patio</h3><p>Outdoor living spaces built to last</p></div>
+        <div class="service-card"><div class="service-icon">&#128268;</div><h3>Interior Painting</h3><p>Professional painting, any color</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2 class="section-title" style="text-align:left">Trusted Since 2008</h2>
+        <p>Summit Remodeling has transformed over 500 homes in the greater Los Angeles area. We handle everything from design to final walkthrough.</p>
+        <ul class="about-list">
+          <li>&#10003; Licensed & Insured (License #1234567)</li>
+          <li>&#10003; 500+ Projects Completed</li>
+          <li>&#10003; 5-Year Workmanship Warranty</li>
+          <li>&#10003; Free Consultation & Estimate</li>
+        </ul>
+      </div>
+      <div class="about-image"><div class="placeholder-img"><span>&#127963;</span><p>Team / Project Photo</p></div></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-cta">
+    <div class="container">
+      <h2 class="section-title">Get Your Free Estimate</h2>
+      <p class="cta-subtitle">Call (310) 555-0155 or fill out the form</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item"><strong>&#128205;</strong><p>789 Highland Ave, Los Angeles, CA 90036</p></div>
+          <div class="contact-item"><strong>&#128222;</strong><p><a href="tel:+13105550155">(310) 555-0155</a></p></div>
+          <div class="contact-item"><strong>&#128337;</strong><p>Mon-Fri: 8AM-5PM | Sat by appointment</p></div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name *" required>
+          <input type="tel" placeholder="Phone *" required>
+          <select><option value="">Project Type</option><option>Kitchen Remodel</option><option>Bathroom Remodel</option><option>Whole House</option><option>Room Addition</option><option>Deck & Patio</option><option>Painting</option><option>Other</option></select>
+          <textarea rows="3" placeholder="Tell us about your project..."></textarea>
+          <button type="submit" class="btn btn-white btn-full">Request Estimate</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col"><h4>Summit Remodeling</h4><p>Building dreams since 2008.</p></div>
+        <div class="footer-col"><h4>Want a site like this?</h4>
+          <p style="margin-bottom:8px;"><a href="mailto:Aidan.R032@outlook.com" style="color:#6c63ff;">&#9993;&#65039; Aidan.R032@outlook.com</a></p>
+          <p><a href="https://wa.me/8613085000345" target="_blank" style="color:#6c63ff;">&#128172; WhatsApp: +86 130 8500 0345</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Summit Remodeling. Demo template by BuildMySite Pro.</p></div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Detailing Template Demo | BuildMySite Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .sub-header { background: #1a1a2e; padding: 12px 0; }
+    .sub-header-inner { display: flex; align-items: center; justify-content: space-between; }
+    .back-btn { color: #fff; font-size: 0.9rem; display: flex; align-items: center; gap: 6px; transition: color .2s; }
+    .back-btn:hover { color: #6c63ff; }
+    .demo-badge { background: #6c63ff; color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+    .navbar { display: none; }
+    .hero { padding: 60px 0 50px; }
+  </style>
+</head>
+<body>
+  <div class="sub-header">
+    <div class="container sub-header-inner">
+      <a href="index.html" class="back-btn">&#8592; Back to Templates</a>
+      <span class="demo-badge">&#9651; LIVE DEMO</span>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">&#128736; Sparkle Auto Detail</a>
+      <ul class="nav-links">
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#gallery">Before & After</a></li>
+        <li><a href="#loyalty">Loyalty</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+13105550111" class="btn btn-phone">&#9742; (310) 555-0111</a>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="container hero-inner">
+      <h1>Your Car Deserves<br><span class="accent">The Best Shine</span></h1>
+      <p>Professional mobile auto detailing. We come to you &mdash; home or office. Same results as a full shop, zero hassle.</p>
+      <div class="hero-buttons">
+        <a href="#packages" class="btn btn-primary">View Packages</a>
+        <a href="#contact" class="btn btn-outline">Book Now</a>
+      </div>
+    </div>
+  </header>
+  <section id="packages" class="section">
+    <div class="container">
+      <h2 class="section-title">Detailing Packages</h2>
+      <div class="pricing-grid" style="margin-bottom:0;">
+        <div class="pricing-card">
+          <div class="pricing-header"><h3>Express Wash</h3><p class="pricing-desc">Quick exterior wash + interior vacuum</p></div>
+          <div class="price"><span class="currency">$</span><span class="amount">35</span><span class="price-note">starting</span></div>
+          <ul class="pricing-features">
+            <li>&#10003; Exterior hand wash</li>
+            <li>&#10003; Wheel cleaning</li>
+            <li>&#10003; Interior vacuum</li>
+            <li>&#10003; Window cleaning</li>
+          </ul>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Best Value</div>
+          <div class="pricing-header"><h3>Full Detail</h3><p class="pricing-desc">Deep clean inside & out</p></div>
+          <div class="price"><span class="currency">$</span><span class="amount">150</span><span class="price-note">starting</span></div>
+          <ul class="pricing-features">
+            <li>&#10003; Everything in Express</li>
+            <li>&#10003; Clay bar treatment</li>
+            <li>&#10003; Interior shampoo</li>
+            <li>&#10003; Leather conditioning</li>
+            <li>&#10003; Machine wax</li>
+          </ul>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-header"><h3>Premium Ceramic</h3><p class="pricing-desc">Showroom finish + ceramic coating</p></div>
+          <div class="price"><span class="currency">$</span><span class="amount">350</span><span class="price-note">starting</span></div>
+          <ul class="pricing-features">
+            <li>&#10003; Everything in Full Detail</li>
+            <li>&#10003; Paint correction</li>
+            <li>&#10003; Ceramic coating (2yr)</li>
+            <li>&#10003; Engine bay detail</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Before & After</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item" style="background:linear-gradient(135deg,#3498db,#2c3e50);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#1abc9c,#16a085);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#e67e22,#d35400);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#2ecc71,#27ae60);">&#128247;</div>
+      </div>
+    </div>
+  </section>
+  <section id="loyalty" class="section">
+    <div class="container" style="text-align:center;">
+      <h2 class="section-title">&#127942; Loyalty Program</h2>
+      <p style="max-width:500px;margin:0 auto 24px;color:#555;">Join Sparkle Club and get 1 free detail for every 5 purchases. Members also get priority booking and seasonal discounts.</p>
+      <a href="#contact" class="btn btn-primary">Join Now</a>
+    </div>
+  </section>
+  <section id="contact" class="section section-cta">
+    <div class="container">
+      <h2 class="section-title">Book Your Detail</h2>
+      <p class="cta-subtitle">We come to you! Home, office, or anywhere in LA</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item"><strong>&#128205;</strong><p>Serving all of Greater Los Angeles</p></div>
+          <div class="contact-item"><strong>&#128222;</strong><p><a href="tel:+13105550111">(310) 555-0111</a></p></div>
+          <div class="contact-item"><strong>&#128337;</strong><p>Mon-Sat: 7AM-6PM | Sun: 8AM-4PM</p></div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name *" required>
+          <input type="tel" placeholder="Phone *" required>
+          <select><option value="">Select Package</option><option>Express Wash ($35+)</option><option>Full Detail ($150+)</option><option>Premium Ceramic ($350+)</option></select>
+          <textarea rows="3" placeholder="Vehicle type & preferred date/time..."></textarea>
+          <button type="submit" class="btn btn-white btn-full">Book Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col"><h4>Sparkle Auto Detail</h4><p>Mobile detailing since 2016.</p></div>
+        <div class="footer-col"><h4>Want a site like this?</h4>
+          <p style="margin-bottom:8px;"><a href="mailto:Aidan.R032@outlook.com" style="color:#6c63ff;">&#9993;&#65039; Aidan.R032@outlook.com</a></p>
+          <p><a href="https://wa.me/8613085000345" target="_blank" style="color:#6c63ff;">&#128172; WhatsApp: +86 130 8500 0345</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Sparkle Auto Detail. Demo template by BuildMySite Pro.</p></div>
+    </div>
+  </footer>
+</body>
+</html>

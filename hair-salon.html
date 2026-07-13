@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hair Salon Template Demo | BuildMySite Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .sub-header { background: #1a1a2e; padding: 12px 0; }
+    .sub-header-inner { display: flex; align-items: center; justify-content: space-between; }
+    .back-btn { color: #fff; font-size: 0.9rem; display: flex; align-items: center; gap: 6px; transition: color .2s; }
+    .back-btn:hover { color: #6c63ff; }
+    .demo-badge { background: #6c63ff; color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+    .navbar { display: none; }
+    .hero { padding: 60px 0 50px; }
+  </style>
+</head>
+<body>
+
+  <div class="sub-header">
+    <div class="container sub-header-inner">
+      <a href="index.html" class="back-btn">&#8592; Back to Templates</a>
+      <span class="demo-badge">&#9651; LIVE DEMO</span>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">&#128138; Glamour Studio</a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#stylists">Stylists</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+13105550177" class="btn btn-phone">&#9742; (310) 555-0177</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <h1>Where Beauty<br><span class="accent">Meets Art</span></h1>
+      <p>Premium hair salon in Los Angeles. Expert stylists, relaxing atmosphere, and results that speak for themselves.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Book Appointment</a>
+        <a href="#services" class="btn btn-outline">View Services</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card"><div class="service-icon">&#128049;</div><h3>Haircut & Style</h3><p>Women $55 | Men $35 | Kids $25</p></div>
+        <div class="service-card"><div class="service-icon">&#127912;</div><h3>Color & Highlights</h3><p>Full color from $120 | Balayage from $180</p></div>
+        <div class="service-card"><div class="service-icon">&#127872;</div><h3>Hair Treatment</h3><p>Keratin, deep conditioning, Olaplex</p></div>
+        <div class="service-card"><div class="service-icon">&#128149;</div><h3>Extensions</h3><p>Clip-in, tape-in, and sew-in from $300</p></div>
+        <div class="service-card"><div class="service-icon">&#127891;</div><h3>Bridal & Events</h3><p>Custom packages for your special day</p></div>
+        <div class="service-card"><div class="service-icon">&#128455;</div><h3>Nails & Lashes</h3><p>Manicure, pedicure, and eyelash extensions</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stylists" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Meet Our Team</h2>
+      <div class="team-grid">
+        <div class="team-card"><div class="team-avatar">&#128105;</div><h3>Jessica</h3><p>Senior Stylist | 12 yrs exp</p></div>
+        <div class="team-card"><div class="team-avatar">&#128104;</div><h3>Marco</h3><p>Color Specialist | 8 yrs exp</p></div>
+        <div class="team-card"><div class="team-avatar">&#128105;</div><h3>Aisha</h3><p>Bridal Expert | 10 yrs exp</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Work</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item" style="background:linear-gradient(135deg,#e91e63,#ad1457);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#ff5722,#bf360c);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#9c27b0,#6a1b9a);">&#128247;</div>
+        <div class="gallery-item" style="background:linear-gradient(135deg,#f44336,#c62828);">&#128247;</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-cta">
+    <div class="container">
+      <h2 class="section-title">Book Your Visit</h2>
+      <p class="cta-subtitle">Call (310) 555-0177 or fill out the form</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item"><strong>&#128205;</strong><p>234 Robertson Blvd, Los Angeles, CA 90048</p></div>
+          <div class="contact-item"><strong>&#128222;</strong><p><a href="tel:+13105550177">(310) 555-0177</a></p></div>
+          <div class="contact-item"><strong>&#128337;</strong><p>Mon-Sat: 9AM-7PM | Sun: 10AM-5PM</p></div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name *" required>
+          <input type="tel" placeholder="Phone *" required>
+          <select><option value="">Select Service</option><option>Haircut & Style</option><option>Color & Highlights</option><option>Hair Treatment</option><option>Extensions</option><option>Bridal</option></select>
+          <input type="date">
+          <button type="submit" class="btn btn-white btn-full">Book Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col"><h4>Glamour Studio</h4><p>Your beauty destination since 2015.</p></div>
+        <div class="footer-col"><h4>Want a site like this?</h4>
+          <p style="margin-bottom:8px;"><a href="mailto:Aidan.R032@outlook.com" style="color:#6c63ff;">&#9993;&#65039; Aidan.R032@outlook.com</a></p>
+          <p><a href="https://wa.me/8613085000345" target="_blank" style="color:#6c63ff;">&#128172; WhatsApp: +86 130 8500 0345</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Glamour Studio. Demo template by BuildMySite Pro.</p></div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Truck Template Demo | BuildMySite Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .sub-header { background: #1a1a2e; padding: 12px 0; }
+    .sub-header-inner { display: flex; align-items: center; justify-content: space-between; }
+    .back-btn { color: #fff; font-size: 0.9rem; display: flex; align-items: center; gap: 6px; transition: color .2s; }
+    .back-btn:hover { color: #6c63ff; }
+    .demo-badge { background: #6c63ff; color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+    .navbar { display: none; }
+    .hero { padding: 60px 0 50px; }
+  </style>
+</head>
+<body>
+  <div class="sub-header">
+    <div class="container sub-header-inner">
+      <a href="index.html" class="back-btn">&#8592; Back to Templates</a>
+      <span class="demo-badge">&#9651; LIVE DEMO</span>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">&#127843; Rolling Bites</a>
+      <ul class="nav-links">
+        <li><a href="#today">Today's Spot</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#catering">Catering</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+13105550133" class="btn btn-phone">&#128172; @RollingBitesLA</a>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="container hero-inner">
+      <h1>Gourmet Street Food<br><span class="accent">On Wheels</span></h1>
+      <p>Best tacos, burritos, and quesadillas in LA. Check our daily location and follow us on Instagram!</p>
+      <div class="hero-buttons">
+        <a href="#today" class="btn btn-primary">Today's Location</a>
+        <a href="#menu" class="btn btn-outline">View Menu</a>
+      </div>
+    </div>
+  </header>
+  <section id="today" class="section section-alt">
+    <div class="container" style="text-align:center;">
+      <h2 class="section-title">&#128205; Today's Location</h2>
+      <div style="background:#fff;border-radius:12px;padding:32px;max-width:500px;margin:0 auto;border:2px solid #6c63ff;">
+        <h3 style="font-size:1.3rem;color:#6c63ff;">Grand Park & 1st Street</h3>
+        <p style="margin:8px 0;color:#555;">123 S Grand Ave, Los Angeles, CA 90012</p>
+        <p style="font-size:1.1rem;font-weight:600;">11:00 AM &ndash; 3:00 PM</p>
+        <p style="color:#999;font-size:0.85rem;margin-top:8px;">Check our Instagram for daily updates!</p>
+      </div>
+    </div>
+  </section>
+  <section id="menu" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-category">
+          <h3>&#127859; Tacos</h3>
+          <div class="menu-item"><span class="menu-name">Carne Asada</span><span class="menu-price">$4</span><p class="menu-desc">Grilled steak, onion, cilantro, salsa verde</p></div>
+          <div class="menu-item"><span class="menu-name">Al Pastor</span><span class="menu-price">$4</span><p class="menu-desc">Spit-roasted pork, pineapple, onion</p></div>
+          <div class="menu-item"><span class="menu-name">Fish Taco</span><span class="menu-price">$5</span><p class="menu-desc">Beer-battered cod, chipotle mayo, cabbage</p></div>
+        </div>
+        <div class="menu-category">
+          <h3>&#127856; Burritos</h3>
+          <div class="menu-item"><span class="menu-name">Classic Burrito</span><span class="menu-price">$10</span><p class="menu-desc">Rice, beans, choice of meat, cheese, salsa</p></div>
+          <div class="menu-item"><span class="menu-name">Burrito Bowl</span><span class="menu-price">$11</span><p class="menu-desc">All the fixings, no tortilla</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="catering" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Catering & Private Bookings</h2>
+      <p style="text-align:center;max-width:600px;margin:0 auto 32px;color:#555;">Bring Rolling Bites to your event! Weddings, corporate lunches, birthday parties & more.</p>
+      <div class="services-grid" style="max-width:700px;margin:0 auto;">
+        <div class="service-card"><div class="service-icon">&#127881;</div><h3>Corporate Lunch</h3><p>50+ servings available. Custom menu.</p></div>
+        <div class="service-card"><div class="service-icon">&#127873;</div><h3>Private Party</h3><p>Birthdays, anniversaries, celebrations</p></div>
+        <div class="service-card"><div class="service-icon">&#128141;</div><h3>Wedding</h3><p>Taco bar setup for your big day</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section section-cta">
+    <div class="container">
+      <h2 class="section-title">Book Us for Your Event</h2>
+      <p class="cta-subtitle">DM us on Instagram or fill out the form</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item"><strong>&#128247;</strong><p><a href="#">Instagram: @RollingBitesLA</a></p></div>
+          <div class="contact-item"><strong>&#9993;&#65039;</strong><p><a href="mailto:hello@rollingbites.com">hello@rollingbites.com</a></p></div>
+          <div class="contact-item"><strong>&#128187;</strong><p>Follow us: Facebook | TikTok | Twitter</p></div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name *" required>
+          <input type="email" placeholder="Email *" required>
+          <input type="date">
+          <textarea rows="3" placeholder="Event details & estimated guests..."></textarea>
+          <button type="submit" class="btn btn-white btn-full">Request Quote</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col"><h4>Rolling Bites</h4><p>Gourmet street food on wheels since 2019.</p></div>
+        <div class="footer-col"><h4>Want a site like this?</h4>
+          <p style="margin-bottom:8px;"><a href="mailto:Aidan.R032@outlook.com" style="color:#6c63ff;">&#9993;&#65039; Aidan.R032@outlook.com</a></p>
+          <p><a href="https://wa.me/8613085000345" target="_blank" style="color:#6c63ff;">&#128172; WhatsApp: +86 130 8500 0345</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Rolling Bites. Demo template by BuildMySite Pro.</p></div>
+    </div>
+  </footer>
+</body>
+</html>
